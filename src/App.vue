@@ -4,16 +4,21 @@
     <router-link to="/about">About</router-link>
   </nav> -->
   <Nav />
+  <!-- <Fetch /> -->
 <div class="d-flex justify-content-center"> <router-view /></div>
  
 </template>
 
 <script>
 import Nav from "./components/Nav.vue";
+
+
 export default {
   components: {
     Nav,
-  },
+    // Fetch,
+    
+},
 };
 </script>
 

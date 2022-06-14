@@ -11,6 +11,8 @@
           
           <li> <router-link to="/goHome" class="nav-link px-2 text-white">Home</router-link></li>
             <li><router-link to="/about"  class="nav-link px-2 text-white">About</router-link></li>
+            <li><router-link to="/fetch"  class="nav-link px-2 text-white">Fetch Data</router-link></li>
+
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">

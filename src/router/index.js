@@ -2,6 +2,11 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Index from '../views/indexPage.vue'
 import HomeView from '../views/HomeView.vue'
 import Login from '../components/Login.vue'
+import FetchView from '../views/FetchView.vue'
+// import Fetch from './components/fetch.vue'
+// import Fetch from '../components/fetch.vue'
+
+
 
 
 const routes = [
@@ -20,6 +25,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: Login
+  },
+  {
+    path: '/fetch',
+    name: 'fetch',
+    component: FetchView
   },
 
   {
